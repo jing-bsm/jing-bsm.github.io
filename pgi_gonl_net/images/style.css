@@ -1,0 +1,208 @@
+/**
+ * Property of XIT Consult (http://www.websitesgarage.com)
+ * All right reserved.
+ * Date: Dec 2011.
+ */
+ 
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	font-family: Arial, Verdana, Helvetica, cursive;
+	font-size: 14px;
+}
+
+img {
+}
+
+a {
+	text-decoration: underline;
+}
+
+#xit-body,#xit-top,#xit-main,#xit-footer{
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#xit-body{
+	width: 1003px;
+	margin:0px auto;
+	margin-top: 8px;
+	padding-bottom: 10px; 
+	background: url(bdbg.png) repeat-y center top;
+}
+
+#xit-top,#xit-main,#xit-footer {
+	padding-left: 8px;
+	padding-right: 8px;
+	width: 987px;
+	display: block;
+	clear: left;
+}
+
+#xit-slogen {
+	font-size: 13px;
+	text-align: center;
+	line-height: 15px;
+	font-style: italic;
+}
+
+#xit-footer {
+	width:800px;
+	padding-top:10px;
+	font-size: 12px;
+	text-align: center;
+	line-height: 15px;
+	font-family:'Lucida Sans Unicode';
+}
+
+#xit-banner{
+	clear: left;
+	display: block;
+	height: 200px;
+	border: none;		
+}
+
+#xit-main{
+	margin-top:10px;
+}
+
+#xit-left{
+	float: left;
+	width: 160px;
+}
+
+#social-media{
+	text-align:center;
+	width: 160px;
+	height:auto;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-left: 5px;
+	padding-left: 5px;	
+	padding-top:5px;
+	padding-bottom:5px;	
+}
+#social-media a{
+	border:0;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+#xit-menu{
+	width: 160px;
+	font-weight:bold;
+	height:auto;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-left: 5px;
+	padding-left: 5px;	
+	padding-top:5px;
+	padding-bottom:5px;
+	
+	-moz-border-radius:10px;
+	border-radius: 10px;
+		
+	-moz-box-shadow: 5px 5px 2px #bbb;
+	-webkit-box-shadow: 5px 5px 2px #bbb;
+	box-shadow: 5px 5px 2px #bbb;	
+}
+#xit-menu a{		
+	display: block;
+	margin: 3px;
+	padding-left: 5px;
+	font-size: 16px;
+	font-variant: small-caps;
+	height: 20px;
+	text-decoration: none;
+	-moz-border-radius:5px;
+	border-radius: 5px;
+}
+#xit-menu ul {
+	list-style-type: none;	
+	margin: 5px;
+	padding-right:8px;
+}
+
+#xit-content {
+	width: 780px;
+	margin-left:5px;
+	margin-right:20px;
+}
+#xit-content td{
+	vertical-align:middle;
+}
+
+#xit-content h1,#xit-content h2,#xit-content h3,#xit-content p{
+	line-height:150%;
+}
+
+#xit-content p{
+	text-align:justify;
+	margin-left:5px;
+	margin-right:10px;
+	margin-bottom:10px;
+}
+#xit-content ul{
+	margin:10px 30px 10px 30px;
+	list-style-type:square;
+}
+#xit-content ul li{
+	margin:10px;
+	line-height:120%;
+}
+/* XIT Consult - Color/Customization section */
+#xit-menu {
+	float: left;
+}
+#xit-content {
+	float: right;
+	padding-bottom: 3px;
+}
+#xit-content p{
+	padding: 3px;		
+}
+/* update above line to change menu location */
+
+#xit-menu {	
+	background-color: #c9e39c;
+}
+#xit-menu a{
+	color:#c9e39c;
+	background-color: #269926;
+	padding:5px;	
+}
+#xit-menu a:hover {
+	background: #1f7b67;
+}
+#active a{
+	background: #719d00;	
+}
+#xit-slogen {
+	color: #999;
+}
+#xit-content h1{
+	font-size: 32px;
+	color: #006b53;
+}
+#xit-content h2{
+	font-size: 24px;
+	color: #1f7b67;
+}
+#xit-content h3{
+	font-size: 18px;
+	color: #00a480;
+}
+#xit-content a{
+	color: #269926;
+}
+body {
+	background: #c9e39c;
+}
+#xit-banner{
+	/*height: 230px;*/
+	width: 950px;
+	background: #fff url(banner.gif) no-repeat center top;
+}
